@@ -55,9 +55,22 @@ public class LinkedList {
         } 
     }
 
-    public void removeDuplicates() {
-        
+    //This algorithm uses just data
+    public void removeDuplicates(int data) {
+        Node current = head;
+        while (current.next != null) {
+            if (current.next.value == data) {
+                current.next = current.next.next;
+                continue;
+            }
+            current = current.next;
+        }
+
+        return;
     }
+
+    //Returning of printing Kth element to the last
+    
 
 
 

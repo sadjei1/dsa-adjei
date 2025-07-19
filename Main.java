@@ -11,14 +11,17 @@ public class Main {
         list.addElement(6);
         list.addElement(7);
         list.addElement(8);
+        list.addElement(9);
+        list.addElement(10);
+        list.addElement(2);
+        list.addElement(10);
+        list.printList();
+        list.removeDuplicates(2);
+        list.printList();
+        list.removeDuplicates(10);
         list.printList();
 
-        System.out.println();
-
-        list.deleteNode(1);
-        list.printList();
-        list.deleteNode(5);
-        list.printList();
+      
 
     }
 
