@@ -69,6 +69,9 @@ public class LinkedList {
         return;
     }
 
+    //Hello world I hope everyone is doing great.
+
+
 
 
 

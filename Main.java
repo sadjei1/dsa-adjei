@@ -15,11 +15,14 @@ public class Main {
         list.addElement(10);
         list.addElement(2);
         list.addElement(10);
+        list.addElement(23);
         list.printList();
         list.removeDuplicates(2);
         list.printList();
         list.removeDuplicates(10);
         list.printList();
+
+        
 
       
 
