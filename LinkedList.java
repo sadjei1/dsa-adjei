@@ -69,8 +69,6 @@ public class LinkedList {
         return;
     }
 
-    //Returning of printing Kth element to the last
-    
 
 
 
