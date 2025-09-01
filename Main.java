@@ -21,8 +21,8 @@ public class Main {
         list.printList();
         list.removeDuplicates(10);
         list.printList();
+        list.printList();
 
-        
 
       
 
